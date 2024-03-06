@@ -18,9 +18,11 @@ print(curse.fetchall())
 curse.execute("PRAGMA table_info({});".format("movies"))
 #this prints eveything about the coloums
 colums =curse.fetchall()
-print("This is all data about the colums" + colums)
+print("This is all data about the colums")
+print(colums)
 print()
 
 #This prints just the names
 colsNames = [colum[1] for colum in colums]
-print("This just prints the colums names from the table movies" +colsNames)
+print ("This just prints the colums names from the table movies")
+print(colsNames)

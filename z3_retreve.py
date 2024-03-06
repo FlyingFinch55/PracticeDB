@@ -26,3 +26,10 @@ print()
 colsNames = [colum[1] for colum in colums]
 print ("This just prints the colums names from the table movies")
 print(colsNames)
+print()
+
+#This prints movies in a certain years
+curse.execute("SELECT title, director, year FROM movies WHERE year = 1970")
+print("List all movies from 1970:")
+print(curse.fetchall())
+print()

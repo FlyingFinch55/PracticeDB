@@ -4,5 +4,5 @@ conn= sqlite3.connect('databaseFile.db')
 curse = conn.cursor()
 
 #Reads all table
-curse.execute("SELSECT * FROM movies")
+curse.execute("SELECT * FROM movies")
 print(curse.fetchall())

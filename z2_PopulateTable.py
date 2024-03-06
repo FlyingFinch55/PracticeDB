@@ -13,9 +13,7 @@ def addMovie(title, director, year, gen):
     conn.commit()
     print("Movie added :)")
 
-addMovie("StarWars", "John Williams", 1970, "Sci-fi")
-addMovie("Inception", "Christopher Nolan", 2010, "Sci-Fi")
-addMovie("The Shawshank Redemption", "Frank Darabont", 1994, "Drama")
-addMovie("The Godfather", "Francis Ford Coppola", 1972, "Crime")
-addMovie("Pulp Fiction", "Quentin Tarantino", 1994, "Crime")
-addMovie("The Dark Knight", "Christopher Nolan", 2008, "Action")
+#Templet for add movies and do not run it again it is already in the table
+#addMovie("StarWars", "John Williams", 1970, "Sci-fi")
+
+
